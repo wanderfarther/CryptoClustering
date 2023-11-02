@@ -1,1 +1,3 @@
 # CryptoClustering
+
+In this notebook, I analysed Crypto Currency data with K-Means. I first had to scale the original data, which then allowed me to use the elbow method to see what the best value for K was. I then created a cluster scatter plot to better analyse the data. The see if I was using the optimal number of clusters, I pushed the data through a PCA analysis. I discovered that there was a mroe fitting number of clusters to use. I checked this new PCA data in an elbow plot and it confirmed that there was a better number of clusters to be used. I then re-created the cluster scatter plot to compare the new clustering to the old cluster plot.
